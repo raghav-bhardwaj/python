@@ -1,6 +1,8 @@
 # Use the official Python image from Docker Hub
 FROM python:3.9
 
+RUN pip install Flask
+
 # Set the working directory in the container
 WORKDIR /app
 
