@@ -1,0 +1,3 @@
+def ceal() {
+  sh 'echo'
+}
